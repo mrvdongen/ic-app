@@ -97,11 +97,14 @@
 		59BC521C1DD08CCF001EA24E /* IC-App */ = {
 			isa = PBXGroup;
 			children = (
+				59BC524F1DD08D7C001EA24E /* Controllers */,
+				59BC524E1DD08D64001EA24E /* Views */,
+				59BC524D1DD08D5C001EA24E /* Models */,
+				59BC524C1DD08CF3001EA24E /* api */,
+				59BC524B1DD08CE9001EA24E /* Classes */,
 				59BC521D1DD08CCF001EA24E /* AppDelegate.swift */,
 				59BC521F1DD08CCF001EA24E /* ViewController.swift */,
-				59BC52211DD08CCF001EA24E /* Main.storyboard */,
 				59BC52241DD08CCF001EA24E /* Assets.xcassets */,
-				59BC52261DD08CCF001EA24E /* LaunchScreen.storyboard */,
 				59BC52291DD08CCF001EA24E /* Info.plist */,
 			);
 			path = "IC-App";
@@ -123,6 +126,43 @@
 				59BC523F1DD08CCF001EA24E /* Info.plist */,
 			);
 			path = "IC-AppUITests";
+			sourceTree = "<group>";
+		};
+		59BC524B1DD08CE9001EA24E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		59BC524C1DD08CF3001EA24E /* api */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = api;
+			sourceTree = "<group>";
+		};
+		59BC524D1DD08D5C001EA24E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		59BC524E1DD08D64001EA24E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				59BC52211DD08CCF001EA24E /* Main.storyboard */,
+				59BC52261DD08CCF001EA24E /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		59BC524F1DD08D7C001EA24E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
