@@ -9,12 +9,12 @@
 import Foundation
 
 struct MessageModel{
-    let id:Int
+    let id:String
     let sender:String
     let message:String
     
     init(Json data:[String:AnyObject]){
-        self.id = data["Id"] as! Int
+        self.id = data["Id"] as! String
         self.sender = data["Sender"] as! String
         self.message = data["Message"] as! String
     }

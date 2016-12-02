@@ -33,5 +33,17 @@ class APIManger : APIMangerBase{
         })
     }
     
+    func sendMessage(withSuccess success: @escaping (Any) -> (),
+                     orFailure failure: @escaping (String) -> ()){
+        
+        self.post(formPath: "Message/Send",
+                  withHeaders: [:],
+                  andParameters: [:],
+                  withSuccess: { (data: Any) in
+                    success(data)
+        }) { (message:String) in
+            failure(message)
+        }
+    }
     // more api calls
 }
